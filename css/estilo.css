@@ -223,7 +223,7 @@ h1, h2, h3, h4, h5, h6 {
 
  #hero::before{
     content: "";
-    background: rgba(255, 248, 248, 0.121);
+    background: rgba(5, 13, 24, 0.22);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -238,8 +238,8 @@ h1, h2, h3, h4, h5, h6 {
     
  }
  #hero h1 {
-    margin: 0 0 10px 0;
-    font-size: 60px;
+    margin: 0 0 15px 0;
+    font-size: 64px;
     color:#000000;
     font-weight: 700;
     line-height: 56px;
@@ -248,8 +248,8 @@ h1, h2, h3, h4, h5, h6 {
  #hero p{
     margin-bottom: 50px;
     color: #000000;
-    font-size: 26px;
-    font-family: "Poppins" sans-serif;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
  }
  #hero p span{
     padding-bottom: 4px;
@@ -281,7 +281,7 @@ section {
    overflow: hidden; 
 }
 .section-bg{
-    background: #bcbcbc;
+    background: #e9e9f9;
 }
 .section-title{
     padding-bottom: 30px;
@@ -398,7 +398,7 @@ section {
     font-style: normal;
 }
 .skills .progress-bar {
-    background: #dce8f8;
+    background: #0f3e7b;
     height: 10px;
 }
 .skills .progress-bar {
@@ -406,4 +406,56 @@ section {
     height: 10 px;
     transition: 0.9s;
     background: #149ddd;
+}
+
+/* Resumo */
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom:20px;
+    color:#040b14;
+}
+
+.resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #173b6c;
+    position: relative;
+}
+.resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color:#050d18;
+    margin-bottom: 10px;
+}
+.resume .resume-item h5{
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px; /*5px direita 15px esquerda */
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+    padding-left: 20px;
+}
+.resume .resume-item ul li {
+    padding-bottom: 10px;
+}
+.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #122f57;
+    
 }
