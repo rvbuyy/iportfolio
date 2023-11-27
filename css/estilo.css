@@ -379,14 +379,14 @@ section {
 
 /* SKILLS */
 .skills .progress{
-    height: 80px;
+    height: 60px;
     display: block;
     background: none;
     border-radius: 0;
 }
 .skills .progress .skill {
     padding: 0;
-    margin: 0 0 6px;
+    margin: 0 0 6px 0;
     text-transform: uppercase;
     display: block;
     font-weight: 600;
@@ -398,12 +398,12 @@ section {
     font-style: normal;
 }
 .skills .progress-bar-wrap {
-    background: #0f3e7b;
+    background: #c9c9c9;
     height: 10px;
 }
 .skills .progress-bar {
     width: 1px;
-    height: 10 px;
+    height: 10px;
     transition: 0.9s;
     background: #149ddd;
 }
